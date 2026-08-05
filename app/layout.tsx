@@ -30,8 +30,7 @@ function SiteHeader() {
       <div className="nav-wrap">
         <div className="brand">
           <a href="/" style={{ display: "flex", alignItems: "center", gap: 12, textDecoration: "none" }}>
-            <div className="brand-mark"></div>
-            <div className="brand-text">Malinowski<small>Salon Meblowy</small></div>
+            <img src="/logo.png" alt="Salon Meblowy Malinowski" className="brand-logo" />
           </a>
         </div>
         <nav>
@@ -57,8 +56,7 @@ function SiteFooter() {
       <div className="footer-inner">
         <div>
           <div className="brand">
-            <div className="brand-mark"></div>
-            <div className="brand-text">Malinowski<small>Salon Meblowy</small></div>
+            <img src="/logo.png" alt="Salon Meblowy Malinowski" className="brand-logo brand-logo-footer" />
           </div>
           <p style={{ marginTop: 14, maxWidth: 280 }}>Meble od projektu po montaż.</p>
         </div>
