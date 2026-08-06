@@ -52,6 +52,15 @@ export default async function HomePage() {
             <div className="eyebrow" style={{ marginBottom: 22 }}>Na rynku od 31 lat</div>
             <h1>Meble, które dopasujesz<br /><em>do swojego wnętrza</em></h1>
             <p>Szeroki wybór mebli do kuchni, salonu, jadalni i gabinetu — starannie wyselekcjonowanych od sprawdzonych producentów, od pojedynczego fotela po kompletną aranżację wnętrza.</p>
+            <form action="/katalog" method="GET" className="katalog-search" style={{ marginBottom: 28 }}>
+              <input
+                type="text"
+                name="szukaj"
+                placeholder="Szukaj produktu…"
+                className="katalog-search-input"
+              />
+              <button type="submit" className="katalog-search-btn">Szukaj</button>
+            </form>
             <div className="hero-ctas">
               <a className="btn btn-solid" href="/katalog">Zobacz ofertę</a>
               <a className="btn" href="#kontakt">Zamów wycenę</a>
@@ -182,7 +191,7 @@ export default async function HomePage() {
       <div className="cta-strip" id="kontakt">
         <div className="cta-inner">
           <h3>Umów bezpłatną wycenę już dziś</h3>
-          <a className="btn btn-dark" href="mailto:kontakt@salonmeblowy.pl">Napisz do nas →</a>
+          <a className="btn btn-dark" href="mailto:salonmeblowy@op.pl">Napisz do nas →</a>
         </div>
       </div>
     </>
