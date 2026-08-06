@@ -63,7 +63,7 @@ function SiteFooter() {
         <div className="col">
           <h4>Kontakt</h4>
           <p>ul. Warmińska 16A, 14-300 Morąg</p>
-          <a href="mailto:kontakt@salonmeblowy.pl">kontakt@salonmeblowy.pl</a>
+          <a href="mailto:salonmeblowy@op.pl">salonmeblowy@op.pl</a>
           <a href="tel:+48664934238">664 934 238</a>
         </div>
         <div className="col">
